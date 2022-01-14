@@ -1,0 +1,75 @@
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* intoduction part  */
+.intoduction
+{
+    display:grid;
+    grid-template-columns: 582px 475px;
+     /* border: 2px solid black;  */
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    
+}
+
+/* intoduction left part  */
+.intoduction-left-part{
+    /* border: 1px solid blue; */
+    text-align: justify;
+}
+.intoduction-left-part h1{
+    font-weight: 700;
+    font-size: 52px;  
+    margin: 0px;
+    padding-top: 0px; 
+}
+.intoduction-left-part p{
+    font-weight: 50;
+    font-size: 16px;
+    padding-right: 40px; 
+    padding-bottom: 15px;
+}
+.button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    color: white;
+    font-weight: 700px;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+
+/* intoduction left part  */
+.intoduction-right-part{
+    /* border: 1px solid blue; */
+    width: 475px;
+    height:475px ;
+    background-image:url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    
+}
+.intoduction-right-part img { 
+ padding-top:30px;
+}
+
+/* main part */
+ /* all the logos in hr */
+ .logos{
+    display: flex;
+    justify-content: center;
+    
+ }
+ .logos div  {
+     
+     text-align: center;
+     background-image:linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 30.38%, rgba(192, 204, 218, 0.1) 100%); 
+     width: 90%;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ .logos div img{
+     padding-right: 5%;
+ }
