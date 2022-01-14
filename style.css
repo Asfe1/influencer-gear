@@ -1,6 +1,8 @@
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 
 /* intoduction part  */
@@ -15,7 +17,10 @@ body{
     
 }
 
-/* intoduction left part  */
+/*---------------------
+ intoduction left part  
+ ------------------------*/
+
 .intoduction-left-part{
     /* border: 1px solid blue; */
     text-align: justify;
@@ -42,7 +47,10 @@ body{
     padding: 10px 24px;
 }
 
-/* intoduction left part  */
+/*--------------------------
+ intoduction left part  
+ --------------------------*/
+ 
 .intoduction-right-part{
     /* border: 1px solid blue; */
     width: 475px;
@@ -55,11 +63,15 @@ body{
  padding-top:30px;
 }
 
-/* main part */
+/*-------------------------- 
+         main part 
+--------------------------*/
+
  /* all the logos in hr */
  .logos{
     display: flex;
     justify-content: center;
+    margin-bottom: 150px;
     
  }
  .logos div  {
@@ -73,3 +85,81 @@ body{
  .logos div img{
      padding-right: 5%;
  }
+
+ /*popular-collections part */
+ 
+ .popular-collections h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 60px;
+}
+.collections{
+    display: grid;
+   grid-template-columns: repeat(3,300px);
+   grid-row-gap: 50px;
+   justify-content: space-around;
+   /* margin-left: 50px;
+   margin-right: 50px; */
+   padding-left: 150px;
+   padding-right: 150px;
+}
+ .collection{
+     border: 1px solid black;
+      width: 329px;
+     height: 476px; 
+     border-radius: 5px;
+ }
+.pic{
+    width: 300px;
+    height: 256px;
+    padding-top:17px;
+    padding-left:13px ;
+}
+ 
+ .information{
+    padding-left:13px ;
+ }
+ .info-title{
+    font-weight: 500;
+    font-size: 28px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+ }
+ .info-price{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin: 0%;
+ }
+ 
+ .fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+    opacity: 0.5;
+}
+
+.information p{
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0%;
+    margin: 0%;
+}
+#see-more{
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+/* footer */
+footer div{
+    background-color: #11092c;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
