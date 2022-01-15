@@ -12,8 +12,6 @@ body{
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: #11092c;
-    color: white;
     padding-top: 30px;
 }
 nav h1{
@@ -22,11 +20,11 @@ nav h1{
 }
 nav a {
     text-decoration: none;
-    color: black;
     font-size: 1.2em;
     margin-right: 30px;
-    color: white;
     font-size: 18px;
+    color: black;
+    font-weight: 700;
 }
 
 
@@ -211,15 +209,15 @@ nav a {
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* border: 1px solid black; */
+      
 }
 .slide-show
 {
-    /* border: 1px solid black; */
+     
     width: 100%;
     height: 500px;
     animation: sliding 10s linear 2s infinite alternate;
-            animation-play-state: running;
+    animation-play-state: running;
     background-size: 70%;
     
 }
@@ -268,6 +266,7 @@ nav a {
     text-align: center;
     margin-top: 150px;
     margin-bottom: 0%;
+    
 }
 .influencer-info{
     align-items: center;
@@ -320,8 +319,8 @@ nav a {
     color: black;
     font-size: 1.2em;
     margin-right: 15px;
-    color: white;
     font-size: 12px;
+    font-weight: 700;
 }
 
     .intoduction
@@ -370,14 +369,15 @@ nav a {
         margin-top: 30px;
         display: grid;
         grid-template-columns: 1fr;
-        /* border: 1px solid black; */
+       
     }
     .influencer-info{
         margin-top: 0%;
+        padding-top: 0%;
         align-items: center;
         width: 80%;
         text-align: center;
-        padding-left: 70px;
+        padding-left: 50px;
 
     }
    
@@ -385,6 +385,8 @@ nav a {
 footer{ 
     padding-right: 0%;
     margin-right:0%;
+    margin-left: 10px;
+    
 }
     
 }
