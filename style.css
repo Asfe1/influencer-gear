@@ -4,6 +4,26 @@ body{
     margin: 0%;
     padding: 0%;
 }
+/* nav bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #11092c;
+    color: white;
+    padding-top: 30px;
+}
+nav h1{
+    margin: 0%;
+    padding-left: 80px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin-right: 30px;
+    color: white;
+}
+
 
 /* intoduction part  */
 .intoduction
@@ -183,7 +203,7 @@ body{
 
 /* my part */
 .my-part{
-    margin-top: 70px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     /* border: 1px solid black; */
@@ -239,18 +259,22 @@ body{
     }
 
 }
-
+#my-part-title{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0%;
+}
 .influencer-info{
     align-items: center;
-    margin-top: 160px;
     width: 70%;
+    padding-top: 150px;
     text-align: justify;
 }
 
 /* footer */
 footer {
     background-color: #11092c;
-    margin: 0%;
+    margin-top: 100px;
     padding: 0%;
     color: white;
     text-align: center;
@@ -323,6 +347,22 @@ footer p{
        padding-left: 150px;
        padding-right: 150px;
     }
+    .my-part{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        /* border: 1px solid black; */
+    }
+    .influencer-info{
+        margin-top: 0%;
+        align-items: center;
+        width: 80%;
+        text-align: center;
+        padding-left: 70px;
+
+    }
+   
+    
 footer{ 
     padding-right: 0%;
     margin-right:0%;
