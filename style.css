@@ -77,7 +77,7 @@ body{
          main part 
 --------------------------*/
 
- /* all the logos in hr */
+ /* all the logos  */
  .logos{
     display: flex;
     justify-content: center;
@@ -102,20 +102,21 @@ body{
 
  /*popular-collections part */
  
+ .collections{
+    display: grid;
+   grid-template-columns: repeat(3,300px);
+   grid-row-gap: 50px;
+   justify-content: space-around;
+   padding-left: 50px;
+   padding-right: 50px;
+}
  .popular-collections h1{
     text-align: center;
     font-weight: 600;
     font-size: 28px;
     margin-bottom: 60px;
 }
-.collections{
-    display: grid;
-   grid-template-columns: repeat(3,300px);
-   grid-row-gap: 50px;
-   justify-content: space-around;
-   padding-left: 150px;
-   padding-right: 150px;
-}
+
  .collection{
     box-shadow: 10px 10px 30px rgb(116, 116, 113);
     width: 329px;
@@ -216,6 +217,7 @@ footer p{
 
     .intoduction
     {
+        width: 90%;
         display:grid;
         grid-template-columns: 1fr;
         align-items: center;
@@ -226,10 +228,14 @@ footer p{
     }
 
     .intoduction-left-part{
-        text-align: justify;
-        width: 90%;
+        text-align: center;
+        margin:7% 10%; 
         padding-left: 5%;
         
+    }
+    .intoduction-left-part p{
+        padding-right: 0px; 
+        padding-bottom: 15px;
     }
     .intoduction-right-part{
   
@@ -237,7 +243,8 @@ footer p{
         height:475px ;
         background-image:url(images/Circle\ design.svg);
         background-repeat: no-repeat;
-        margin:7% 10%; 
+        margin:7% 7%; 
+       
     }
 
      /*popular-collections part */
@@ -250,4 +257,49 @@ footer p{
        padding-left: 150px;
        padding-right: 150px;
     }
+footer{ 
+    padding-right: 0%;
+    margin-right:0%;
 }
+    
+}
+
+
+ /* tablet deices */
+
+ @media only screen and (min-width:688px) and (max-width:1092px)
+     {
+        .intoduction
+        {
+            width: 90%;
+            display:grid;
+            grid-template-columns: 1fr;
+           
+        }
+        .intoduction-left-part{
+            text-align: center;
+            margin:7% 10%; 
+            padding-left: 5%;
+            
+        }
+        .intoduction-right-part{
+  
+            width: 475px;
+            height:475px ;
+            background-image:url(images/Circle\ design.svg);
+            background-repeat: no-repeat;
+            justify-content: center;
+            margin-left: 30%;
+           
+        }
+
+        .collections{
+            display: grid;
+            grid-template-columns: repeat(2,300px);
+            grid-row-gap: 50px;
+            justify-content: space-around;
+            padding-left: 15px;
+            padding-right: 15px;
+         }
+        
+     }
