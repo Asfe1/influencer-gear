@@ -4,6 +4,10 @@ body{
     margin: 0%;
     padding: 0%;
 }
+
+/* mobile nav bar */
+
+
 /* nav bar */
 nav {
     display: flex;
@@ -14,7 +18,7 @@ nav {
 }
 nav h1{
     margin: 0%;
-    padding-left: 80px;
+    padding-left: 50px;
 }
 nav a {
     text-decoration: none;
@@ -22,6 +26,7 @@ nav a {
     font-size: 1.2em;
     margin-right: 30px;
     color: white;
+    font-size: 18px;
 }
 
 
@@ -304,6 +309,20 @@ footer p{
     /*--------------------------
  intoduction right part  
  --------------------------*/
+
+ nav h1{
+    margin: 0%;
+    padding-left: 10px;
+    font-size: 16px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin-right: 15px;
+    color: white;
+    font-size: 12px;
+}
 
     .intoduction
     {
